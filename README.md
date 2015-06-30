@@ -5,4 +5,4 @@ This is designed for use with the Armadillo C++ linear algebra library, which is
 
 http://arma.sourceforge.net/
 
-Add the contents of the 'armadillo_qz' to the same location as the Armadillo header files.
+Add the contents of'armadillo_qz' to the same location as the Armadillo header files.
