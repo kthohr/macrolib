@@ -17,6 +17,7 @@
  */
 #include <iostream>
 #include "armadillo"
+#include "armadillo_qz"
 #include "gensys.h"
 //
 using namespace arma;

@@ -13,6 +13,7 @@
  */
 #include <iostream>
 #include "armadillo"
+#include "armadillo_qz"
 //
 using namespace std;
 //
