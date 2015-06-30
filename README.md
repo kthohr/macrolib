@@ -1,5 +1,5 @@
 # gensys++
-C++ implementation of Chris Sims' gensys program for solving linear rational expectations models.
+gensys++ is a C++ implementation of Chris Sims' gensys program for solving linear rational expectations models.
 
 This is designed for use with the Armadillo C++ linear algebra library, which is available at:
 
