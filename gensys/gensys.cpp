@@ -7,6 +7,9 @@
  * Keith O'Hara
  * 06/29/15
  *
+ * This version:
+ * 06/30/15
+ *
  * Requires the 'Armadillo' linear algebra library, and
  * additional files to call LAPACK's ZGGES routine.
  *

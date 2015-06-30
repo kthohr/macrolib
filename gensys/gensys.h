@@ -1,3 +1,19 @@
+/*
+ * Chris Sims' gensys program for solving
+ * linear rational expectations models using
+ * a complex generalized Schur (QZ) decomposition.
+ *
+ * Ported and adapted to C++ by
+ * Keith O'Hara
+ * 06/29/15
+ *
+ * This version:
+ * 06/30/15
+ *
+ * Requires the 'Armadillo' linear algebra library, and
+ * additional files to call LAPACK's ZGGES routine.
+ *
+ */
 #ifndef gensys_H
 #define gensys_H
 
