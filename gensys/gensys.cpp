@@ -210,7 +210,7 @@ int gensys(arma::mat Gamma0, arma::mat Gamma1, arma::mat C, arma::mat Psi, arma:
      */
     arma::cx_mat Q; arma::cx_mat Z; arma::cx_mat S; arma::cx_mat T;
     //
-    arma::qz(Q, Z, S, T, xGamma0, xGamma1);
+    arma::qz(S, T, Q, Z, xGamma0, xGamma1);
     /* 
      *
      * Next, transpose Q as our lapack output is of the form:

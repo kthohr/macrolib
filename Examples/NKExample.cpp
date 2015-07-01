@@ -7,7 +7,7 @@
  * This version:
  * 06/30/15
  *
- * For example, on a Mac you can compile an executable form with
+ * For example, on a Mac you can compile an executable form using
  *
  * g++ -I/opt/local/include/ gensys.cpp -c -o gensys.o -O2
  * g++ -I/opt/local/include/ NKExample.cpp -c -o NKExample.o -O2
