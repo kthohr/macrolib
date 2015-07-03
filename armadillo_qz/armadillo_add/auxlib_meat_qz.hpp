@@ -108,6 +108,8 @@ auxlib2::qz
       work.memptr(), &lwork, bwork.memptr(),
       &info
       );
+    
+    op_strans::apply_mat_inplace(vsl); // transpose Q
         
       if(info == 0)
         {
@@ -236,6 +238,8 @@ auxlib2::qz
       work.memptr(), &lwork, rwork.memptr(), bwork.memptr(),
       &info
       );
+    
+    op_htrans::apply_mat_inplace(vsl); // transpose Q
         
     if(info == 0)
       {

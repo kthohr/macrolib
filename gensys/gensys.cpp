@@ -204,22 +204,12 @@ int gensys(arma::mat Gamma0, arma::mat Gamma1, arma::mat C, arma::mat Psi, arma:
     xGamma1.set_real(Gamma1);
     /*
      *
-     * QZ decomposition: Gamma0 = Q S Z**H,  Gamma1 = Q T Z**H
-     * Note: this is not equivalent to the output produced by Matlab's 'qz' function.
+     * QZ decomposition: Gamma0 = Q**H S Z**H,  Gamma1 = Q**H T Z**H
      *
      */
     arma::cx_mat Q; arma::cx_mat Z; arma::cx_mat S; arma::cx_mat T;
     //
     arma::qz(S, T, Q, Z, xGamma0, xGamma1);
-    /* 
-     *
-     * Next, transpose Q as our lapack output is of the form:
-     *                Gamma0 = Q S Z**H,    Gamma1 = Q T Z**H,
-     * whereas Matlab output is of the form:
-     *                Gamma0 = Q**H S Z**H, Gamma1 = Q**H T Z**H
-     *
-     */
-    Q = arma::trans(Q);
     //
     arma::cx_vec alpha_mat = S.diag();
     arma::cx_vec beta_mat = T.diag();
