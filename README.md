@@ -1,5 +1,8 @@
-# gensys++
-gensys++ is a C++ implementation of Chris Sims' gensys program for solving linear rational expectations models.
+# MacroLib
+
+MacroLib is a collection of useful C++ routines for solving macroeconomic models.
+
+- gensys++ is a C++ implementation of Chris Sims' gensys program for solving linear rational expectations models.
 
 This is designed for use with the Armadillo C++ linear algebra library, which is available at:
 
